@@ -9,8 +9,8 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>propertyFilter</componentName>
-                <identifier>propertyFilter</identifier>
+                <componentName>propertySummary</componentName>
+                <identifier>propertySummary</identifier>
             </componentInstance>
         </itemInstances>
         <name>left</name>
@@ -35,8 +35,8 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>daysOnMarket</componentName>
-                <identifier>daysOnMarket</identifier>
+                <componentName>barcodeScanner</componentName>
+                <identifier>c_barcodeScanner</identifier>
             </componentInstance>
         </itemInstances>
         <name>right</name>
