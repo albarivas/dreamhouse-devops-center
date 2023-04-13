@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>barcodeScanner</componentName>
-                <identifier>c_barcodeScanner</identifier>
+                <componentName>propertyFilter</componentName>
+                <identifier>propertyFilter</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>propertyFilter</componentName>
-                <identifier>propertyFilter</identifier>
+                <componentName>barcodeScanner</componentName>
+                <identifier>c_barcodeScanner</identifier>
             </componentInstance>
         </itemInstances>
         <name>left</name>
@@ -29,14 +29,14 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>propertySummary</componentName>
-                <identifier>propertySummary</identifier>
+                <componentName>daysOnMarket</componentName>
+                <identifier>daysOnMarket</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>daysOnMarket</componentName>
-                <identifier>daysOnMarket</identifier>
+                <componentName>propertySummary</componentName>
+                <identifier>propertySummary</identifier>
             </componentInstance>
         </itemInstances>
         <name>right</name>
