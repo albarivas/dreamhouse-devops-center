@@ -9,8 +9,8 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>barcodeScanner</componentName>
-                <identifier>c_barcodeScanner</identifier>
+                <componentName>propertySummary</componentName>
+                <identifier>propertySummary</identifier>
             </componentInstance>
         </itemInstances>
         <name>left</name>
@@ -35,8 +35,8 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>propertySummary</componentName>
-                <identifier>propertySummary</identifier>
+                <componentName>barcodeScanner</componentName>
+                <identifier>c_barcodeScanner</identifier>
             </componentInstance>
         </itemInstances>
         <name>right</name>
