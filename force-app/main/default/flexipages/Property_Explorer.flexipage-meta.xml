@@ -37,6 +37,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>propertyFilter</componentName>
+                <identifier>propertyFilter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>propertySummary</componentName>
                 <identifier>propertySummary</identifier>
             </componentInstance>
