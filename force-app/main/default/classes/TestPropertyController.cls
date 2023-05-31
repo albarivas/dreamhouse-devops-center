@@ -19,6 +19,7 @@ private class TestPropertyController {
 
     @isTest
     static void testGetPagedPropertyList() {
+        // GIVEN
         Profile standardUserProfile = [
             SELECT Name, Id
             FROM Profile
@@ -51,10 +52,13 @@ private class TestPropertyController {
             PermissionSetId = ps.Id
         );
 
+        // WHEN
         // Insert test properties as admin
         System.runAs(new User(Id = UserInfo.getUserId())) {
             TestPropertyController.createProperties(5);
         }
+
+        // THEN
         // Read properties as test user
         System.runAs(testUser) {
             Test.startTest();
